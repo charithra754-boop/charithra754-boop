@@ -1,6 +1,6 @@
 [
   {
-    "fileName": "profile-3d-contrib/profile-pastel.svg",
+    "fileName": "profile-pastel.svg",
     "type": "normal",
     "backgroundColor": "#FFFFFF",
     "foregroundColor": "#363636",
@@ -16,7 +16,7 @@
     ]
   },
   {
-    "fileName": "profile-3d-contrib/profile-pastel-dark.svg",
+    "fileName": "profile-pastel-dark.svg",
     "type": "normal",
     "backgroundColor": "#0d1117",
     "foregroundColor": "#c9d1d9",
