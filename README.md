@@ -1,20 +1,20 @@
 <div align="center">
-  <h1>Hi, I'm Charithra! </h1>
-  <h3>Full-Stack Developer | AI & SNN Researcher</h3>
+  <h1>Hi, I'm Charithra! 👋</h1>
+  <code>Full-Stack Developer | AI & SNN Researcher</code>
   
   <p>
     Building intersections between <b>Deep Learning</b>, <b>Fintech</b>, and <b>DevTools</b>.
   </p>
 
   <a href="[YOUR LINKEDIN URL]">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin" alt="https://www.linkedin.com/in/charithra-g-672a22338/" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-b39ddb?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:[YOUR EMAIL]">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail" alt="charithra754@gmail.com" />
+  <a href="mailto:charithra754@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-ffab91?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </div>
 
-<hr />
+<br />
 
 ### 📂 Selected Work
 | **AI & Deep Tech** | **Product & Web** | **Tools & Utilities** |
@@ -24,43 +24,23 @@
 
 <br />
 
-### 🛠 Tech Stack
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
+### 📜 Recent Activity
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 <br />
 
-### 🎧 On Air & Vibe
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <b>Currently Jamming</b><br/>
-      <!-- 
-        To make this dynamic:
-        1. Visit https://github.com/kittinan/spotify-github-profile
-        2. Deploy your own instance or use a public one.
-        3. Replace the src below with your generated URL.
-      -->
-      <a href="https://open.spotify.com">
-        <img src="https://img.shields.io/badge/Spotify-Offline-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify Status">
-      </a>
-    </td>
-    <td align="center" width="50%">
-      <b>Top Coding Beats</b><br/>
-      1. 🧠 <i>lofi hip hop radio</i><br/>
-      2. ⚡ <i>The Social Network OST</i><br/>
-      3. 🌌 <i>Interstellar OST</i>
-    </td>
-  </tr>
-</table>
+### 🛠 Tech Stack
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-<hr />
+<br />
 
-### 🎹 Contribution Beats
+### 🧩 Contribution Map
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/charithra754-boop/charithra754-boop/output/github-contribution-grid-snake-spotify.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/charithra754-boop/charithra754-boop/output/github-contribution-grid-snake-pastel.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/charithra754-boop/charithra754-boop/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/charithra754-boop/charithra754-boop/output/github-contribution-grid-snake.svg">
 </picture>
