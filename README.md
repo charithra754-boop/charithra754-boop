@@ -17,10 +17,62 @@
 <br />
 
 ### 📂 Selected Work
-| **AI & Deep Tech** | **Product & Web** | **Tools & Utilities** |
-|:---:|:---:|:---:|
-| **[Real-Time Arrhythmia](LINK_HERE)** <br> *SNN-based cardiac monitoring.* | **[Finance-Bud](LINK_HERE)** <br> *Personal finance analytics.* | **[Spot-ify-CLI](LINK_HERE)** <br> *Terminal-based Spotify controller.* |
-| **[Gen-AI Fusion](LINK_HERE)** <br> *Generative AI architectures.* | **[Kirana Grid](LINK_HERE)** <br> *Hyperlocal commerce.* | **[Scheduling System](LINK_HERE)** <br> *Automated task management.* |
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">🫀 Real-Time Arrhythmia</h3>
+      <p align="center">SNN-based cardiac monitoring system using biologically plausible neural networks.</p>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Python-363636?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/SNN-363636?style=flat-square" />
+      </div>
+    </td>
+    <td width="50%">
+      <h3 align="center">💸 Finance-Bud</h3>
+      <p align="center">Personal finance analytics dashboard with predictive spending models.</p>
+      <div align="center">
+        <img src="https://img.shields.io/badge/React-363636?style=flat-square&logo=react&logoColor=white" />
+        <img src="https://img.shields.io/badge/Fintech-363636?style=flat-square" />
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">🤖 Gen-AI Fusion</h3>
+      <p align="center">Exploring novel generative AI architectures for multimodal synthesis.</p>
+      <div align="center">
+        <img src="https://img.shields.io/badge/PyTorch-363636?style=flat-square&logo=pytorch&logoColor=white" />
+        <img src="https://img.shields.io/badge/LLM-363636?style=flat-square" />
+      </div>
+    </td>
+    <td width="50%">
+      <h3 align="center">🛍️ Kirana Grid</h3>
+      <p align="center">Hyperlocal commerce platform connecting local vendors with digital consumers.</p>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Node.js-363636?style=flat-square&logo=nodedotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/Commerce-363636?style=flat-square" />
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">🎵 Spot-ify-CLI</h3>
+      <p align="center">Rust-based terminal controller for Spotify with real-time lyrics.</p>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Rust-363636?style=flat-square&logo=rust&logoColor=white" />
+        <img src="https://img.shields.io/badge/CLI-363636?style=flat-square" />
+      </div>
+    </td>
+    <td width="50%">
+      <h3 align="center">📅 Scheduling System</h3>
+      <p align="center">Automated task management system with priority queue algorithms.</p>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Go-363636?style=flat-square&logo=go&logoColor=white" />
+        <img src="https://img.shields.io/badge/Backend-363636?style=flat-square" />
+      </div>
+    </td>
+  </tr>
+</table>
 
 <br />
 
