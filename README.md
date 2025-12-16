@@ -32,7 +32,7 @@
       <h3 align="center">🚀 Project Astraeus: Digital Twin</h3>
       <p align="center"><i>"Navigating the cosmos with intelligent autonomy!"</i> 🛰️<br>Optimized satellite data scheduling with a PPO agent (+23.4% throughput). Engineered a physics-accurate 3D Digital Twin (CesiumJS) for sub-second telemetry processing.</p>
       <div align="center">
-        <img src="https://img.shields.io/badge/Reinforcement_L-9bf6ff?style=flat-square&logo=tensorflow&logoColor=black" />
+        <img src="https://img.shields.io/badge/Reinforcement_L-caffbf?style=flat-square&logo=tensorflow&logoColor=black" />
         <img src="https://img.shields.io/badge/Digital_Twin-a0c4ff?style=flat-square&logoColor=black" />
         <img src="https://img.shields.io/badge/CesiumJS-bdb2ff?style=flat-square&logo=cesium&logoColor=black" />
       </div>

@@ -11,8 +11,8 @@
         "#ebedf0",
         "#caffbf",
         "#9bf6ff",
-        "#ffc6ff",
-        "#ffadad"
+        "#a0c4ff",
+        "#bdb2ff"
     ]
   },
   {
@@ -26,9 +26,9 @@
     "contribColors": [
         "#161b22",
         "#b9fbc0",
+        "#9bf6ff",
         "#a0c4ff",
-        "#bdb2ff",
-        "#ffc8dd"
+        "#bdb2ff"
     ]
   }
 ]
