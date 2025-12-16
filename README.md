@@ -87,9 +87,9 @@
 
 <br />
 
-### 🧩 Contribution Map
+### 🏙️ 3D Contribution City
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/charithra754-boop/charithra754-boop/output/github-contribution-grid-snake-pastel.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/charithra754-boop/charithra754-boop/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/charithra754-boop/charithra754-boop/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/charithra754-boop/charithra754-boop/main/profile-3d-contrib/profile-pastel-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/charithra754-boop/charithra754-boop/main/profile-3d-contrib/profile-pastel.svg">
+  <img alt="github 3d contribution city animation" src="https://raw.githubusercontent.com/charithra754-boop/charithra754-boop/main/profile-3d-contrib/profile-pastel.svg">
 </picture>
