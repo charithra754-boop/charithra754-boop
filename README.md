@@ -7,10 +7,10 @@
   </p>
 
   <a href="[YOUR LINKEDIN URL]">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-b39ddb?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-363636?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:charithra754@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-ffab91?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-Contact_Me-363636?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </div>
 
@@ -31,10 +31,10 @@
 <br />
 
 ### 🛠 Tech Stack
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-363636?style=flat&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/-React-363636?style=flat&logo=react&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-363636?style=flat&logo=pytorch&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-363636?style=flat&logo=git&logoColor=white)
 
 <br />
 
