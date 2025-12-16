@@ -46,21 +46,21 @@
       </div>
     </td>
     <td width="50%">
-      <h3 align="center">🛍️ Kirana Grid</h3>
-      <p align="center"><i>"Local shops, digital superpowers!"</i> 🚀<br>Hyperlocal commerce platform connecting neighborhood vendors with modern consumers.</p>
+      <h3 align="center">🕸️ Project Entanglement</h3>
+      <p align="center"><i>"Unraveling the quantum web!"</i> 🔮<br>Visualizing complex quantum entanglement states through interactive simulation models.</p>
       <div align="center">
-        <img src="https://img.shields.io/badge/Node.js-fdffb6?style=flat-square&logo=nodedotjs&logoColor=black" />
-        <img src="https://img.shields.io/badge/Full_Stack-a0c4ff?style=flat-square&logoColor=black" />
+        <img src="https://img.shields.io/badge/Python-e0c3fc?style=flat-square&logo=python&logoColor=black" />
+        <img src="https://img.shields.io/badge/Quantum_Sim-ffc8dd?style=flat-square&logoColor=black" />
       </div>
     </td>
   </tr>
   <tr>
     <td colspan="2">
-      <h3 align="center">🎵 Spot-ify-CLI</h3>
-      <p align="center"><i>"DJ duties from the terminal!"</i> 🎧<br>A Rust-based controller for Spotify. Change tracks, view lyrics, and vibe without leaving your shell.</p>
+      <h3 align="center">🏠 QR Home Portal</h3>
+      <p align="center"><i>"Smart living, just a scan away!"</i> 📲<br>Seamless IoT dashboard for home automation and guest access via dynamic QR codes.</p>
       <div align="center">
-        <img src="https://img.shields.io/badge/Rust-ffc6ff?style=flat-square&logo=rust&logoColor=black" />
-        <img src="https://img.shields.io/badge/DevTools-9bf6ff?style=flat-square&logoColor=black" />
+        <img src="https://img.shields.io/badge/React_Native-a0c4ff?style=flat-square&logo=react&logoColor=black" />
+        <img src="https://img.shields.io/badge/IoT-b9fbc0?style=flat-square&logoColor=black" />
       </div>
     </td>
   </tr>
