@@ -30,11 +30,37 @@
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 
+<br />
+
+### 🎧 On Air & Vibe
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <b>Currently Jamming</b><br/>
+      <!-- 
+        To make this dynamic:
+        1. Visit https://github.com/kittinan/spotify-github-profile
+        2. Deploy your own instance or use a public one.
+        3. Replace the src below with your generated URL.
+      -->
+      <a href="https://open.spotify.com">
+        <img src="https://img.shields.io/badge/Spotify-Offline-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify Status">
+      </a>
+    </td>
+    <td align="center" width="50%">
+      <b>Top Coding Beats</b><br/>
+      1. 🧠 <i>lofi hip hop radio</i><br/>
+      2. ⚡ <i>The Social Network OST</i><br/>
+      3. 🌌 <i>Interstellar OST</i>
+    </td>
+  </tr>
+</table>
+
 <hr />
 
-### 🐍 My Contribution Graph
+### 🎹 Contribution Beats
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/charithra754-boop/charithra754-boop/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/charithra754-boop/charithra754-boop/output/github-contribution-grid-snake-spotify.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/charithra754-boop/charithra754-boop/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/charithra754-boop/charithra754-boop/output/github-contribution-grid-snake.svg">
 </picture>
