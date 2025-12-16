@@ -21,54 +21,46 @@
   <tr>
     <td width="50%">
       <h3 align="center">🫀 Real-Time Arrhythmia</h3>
-      <p align="center">SNN-based cardiac monitoring system using biologically plausible neural networks.</p>
+      <p align="center"><i>"Listening to the heart's electric language!"</i> ⚡<br>A Spiking Neural Network (SNN) that detects cardiac anomalies with biological precision in real-time.</p>
       <div align="center">
-        <img src="https://img.shields.io/badge/Python-363636?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/SNN-363636?style=flat-square" />
+        <img src="https://img.shields.io/badge/Python-ffadad?style=flat-square&logo=python&logoColor=black" />
+        <img src="https://img.shields.io/badge/AI_Research-ffd6a5?style=flat-square&logoColor=black" />
       </div>
     </td>
     <td width="50%">
       <h3 align="center">💸 Finance-Bud</h3>
-      <p align="center">Personal finance analytics dashboard with predictive spending models.</p>
+      <p align="center"><i>"Master your money moves!"</i> 💰<br>Smart analytics dashboard that gamifies savings and predicts future spending habits.</p>
       <div align="center">
-        <img src="https://img.shields.io/badge/React-363636?style=flat-square&logo=react&logoColor=white" />
-        <img src="https://img.shields.io/badge/Fintech-363636?style=flat-square" />
+        <img src="https://img.shields.io/badge/React-9bf6ff?style=flat-square&logo=react&logoColor=black" />
+        <img src="https://img.shields.io/badge/Fintech-caffbf?style=flat-square&logoColor=black" />
       </div>
     </td>
   </tr>
   <tr>
     <td width="50%">
       <h3 align="center">🤖 Gen-AI Fusion</h3>
-      <p align="center">Exploring novel generative AI architectures for multimodal synthesis.</p>
+      <p align="center"><i>"Where code dreams in color!"</i> 🎨<br>Exploring novel generative architectures for multimodal synthesis and creative AI.</p>
       <div align="center">
-        <img src="https://img.shields.io/badge/PyTorch-363636?style=flat-square&logo=pytorch&logoColor=white" />
-        <img src="https://img.shields.io/badge/LLM-363636?style=flat-square" />
+        <img src="https://img.shields.io/badge/PyTorch-bdb2ff?style=flat-square&logo=pytorch&logoColor=black" />
+        <img src="https://img.shields.io/badge/Deep_Learning-ffc6ff?style=flat-square&logoColor=black" />
       </div>
     </td>
     <td width="50%">
       <h3 align="center">🛍️ Kirana Grid</h3>
-      <p align="center">Hyperlocal commerce platform connecting local vendors with digital consumers.</p>
+      <p align="center"><i>"Local shops, digital superpowers!"</i> 🚀<br>Hyperlocal commerce platform connecting neighborhood vendors with modern consumers.</p>
       <div align="center">
-        <img src="https://img.shields.io/badge/Node.js-363636?style=flat-square&logo=nodedotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/Commerce-363636?style=flat-square" />
+        <img src="https://img.shields.io/badge/Node.js-fdffb6?style=flat-square&logo=nodedotjs&logoColor=black" />
+        <img src="https://img.shields.io/badge/Full_Stack-a0c4ff?style=flat-square&logoColor=black" />
       </div>
     </td>
   </tr>
   <tr>
-    <td width="50%">
+    <td colspan="2">
       <h3 align="center">🎵 Spot-ify-CLI</h3>
-      <p align="center">Rust-based terminal controller for Spotify with real-time lyrics.</p>
+      <p align="center"><i>"DJ duties from the terminal!"</i> 🎧<br>A Rust-based controller for Spotify. Change tracks, view lyrics, and vibe without leaving your shell.</p>
       <div align="center">
-        <img src="https://img.shields.io/badge/Rust-363636?style=flat-square&logo=rust&logoColor=white" />
-        <img src="https://img.shields.io/badge/CLI-363636?style=flat-square" />
-      </div>
-    </td>
-    <td width="50%">
-      <h3 align="center">📅 Scheduling System</h3>
-      <p align="center">Automated task management system with priority queue algorithms.</p>
-      <div align="center">
-        <img src="https://img.shields.io/badge/Go-363636?style=flat-square&logo=go&logoColor=white" />
-        <img src="https://img.shields.io/badge/Backend-363636?style=flat-square" />
+        <img src="https://img.shields.io/badge/Rust-ffc6ff?style=flat-square&logo=rust&logoColor=black" />
+        <img src="https://img.shields.io/badge/DevTools-9bf6ff?style=flat-square&logoColor=black" />
       </div>
     </td>
   </tr>
