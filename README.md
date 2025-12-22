@@ -1,22 +1,54 @@
 <div align="center">
-  <h1>Hi, I'm Charithra! 👋</h1>
-  <code>Full-Stack Developer | AI & SNN Researcher</code>
   
-  <p>
-    Building intersections between <b>Deep Learning</b>, <b>Fintech</b>, and <b>DevTools</b>.
-  </p>
-
-  <a href="[YOUR LINKEDIN URL]">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-363636?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <!-- Animated Header -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hey%20there!%20I'm%20Charithra%20🚀&fontSize=32&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20|%20AI%20%26%20SNN%20Researcher&descAlignY=52&descSize=18" width="100%"/>
+  
+  <!-- Typing Animation -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A77BF3&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Building+at+the+intersection+of+AI+%26+Fintech+%F0%9F%A7%A0;Neuromorphic+Computing+Enthusiast+%E2%9A%A1;Turning+Coffee+into+Code+since+2020+%E2%98%95" alt="Typing SVG" />
   </a>
+  
+  <br/>
+  
+  <!-- Profile Views & Followers -->
+  <img src="https://komarev.com/ghpvc/?username=charithra754-boop&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS" alt="Profile Views"/>
+  &nbsp;
+  <a href="https://github.com/charithra754-boop?tab=followers">
+    <img src="https://img.shields.io/github/followers/charithra754-boop?style=for-the-badge&color=a855f7&labelColor=1a1a2e&label=Followers" alt="Followers"/>
+  </a>
+  
+  <br/><br/>
+  
+  <!-- Social Links -->
+  <a href="https://www.linkedin.com/in/charithra754">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;
   <a href="mailto:charithra754@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-363636?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
+  &nbsp;
+  <a href="https://github.com/charithra754-boop">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+
 </div>
 
-<br />
+<!-- Wave Divider -->
+<img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" width="100%"/>
 
-### 📂 Selected Work
+<br/>
+
+## ⚡ Quick Stats
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=charithra754-boop&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&rank_icon=github"/>
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=charithra754-boop&theme=tokyonight&hide_border=true&background=0D1117&ring=a855f7&fire=a855f7&currStreakLabel=a855f7"/>
+</div>
+
+<br/>
+
+##  Featured Projects
 <table>
   <tr>
     <td width="50%">
@@ -79,17 +111,74 @@
 
 <br />
 
-### 🛠 Tech Stack
-![Python](https://img.shields.io/badge/-Python-363636?style=flat&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/-React-363636?style=flat&logo=react&logoColor=white)
-![PyTorch](https://img.shields.io/badge/-PyTorch-363636?style=flat&logo=pytorch&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-363636?style=flat&logo=git&logoColor=white)
+## 🛠️ Tech Arsenal
 
-<br />
+<div align="center">
 
-### 🏙️ 3D Contribution City
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/charithra754-boop/charithra754-boop/main/profile-3d-contrib/profile-pastel-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/charithra754-boop/charithra754-boop/main/profile-3d-contrib/profile-pastel.svg">
-  <img alt="github 3d contribution city animation" src="https://raw.githubusercontent.com/charithra754-boop/charithra754-boop/main/profile-3d-contrib/profile-pastel.svg">
-</picture>
+### Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+
+### AI/ML & Data
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+
+### Web & Cloud
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+
+### Tools & Others
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+</div>
+
+<br/>
+
+## 🌱 Currently Exploring
+
+<div align="center">
+
+| 🧠 Neuromorphic Computing | 🔗 Web3 & DeFi | 🤖 Multi-Agent Systems |
+|:------------------------:|:--------------:|:----------------------:|
+| Spiking Neural Networks | Smart Contracts | LangChain & AutoGen |
+| Intel Loihi | Zero-Knowledge Proofs | RAG Architectures |
+| Edge AI Optimization | MCP Protocols | Autonomous Agents |
+
+</div>
+
+<br/>
+
+## 🏙️ 3D Contribution City
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/charithra754-boop/charithra754-boop/main/profile-3d-contrib/profile-pastel-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/charithra754-boop/charithra754-boop/main/profile-3d-contrib/profile-pastel.svg">
+    <img alt="github 3d contribution city animation" src="https://raw.githubusercontent.com/charithra754-boop/charithra754-boop/main/profile-3d-contrib/profile-pastel.svg">
+  </picture>
+</div>
+
+<br/>
+
+## 💬 Random Dev Quote
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote"/>
+</div>
+
+<br/>
+
+<!-- Footer Wave -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
