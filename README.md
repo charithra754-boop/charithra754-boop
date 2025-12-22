@@ -1,11 +1,16 @@
-<div align="center">
+let t<div align="center">
   
-  <!-- Animated Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hey%20there!%20I'm%20Charithra&fontSize=36&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20AI%20%26%20SNN%20Researcher&descAlignY=55&descSize=16" width="100%"/>
+  <!-- Wave Header -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=header" width="100%"/>
+  
+  <h1>👋 Hey there! I'm Charithra</h1>
+  <b>Full-Stack Developer | AI & SNN Researcher</b>
+  
+  <br/><br/>
   
   <!-- Typing Animation -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A77BF3&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Building+at+the+intersection+of+AI+%26+Fintech+%F0%9F%A7%A0;Neuromorphic+Computing+Enthusiast+%E2%9A%A1;Turning+Coffee+into+Code+since+2020+%E2%98%95" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A77BF3&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=60&lines=Building+at+the+intersection+of+AI+%26+Fintech+%F0%9F%A7%A0;Neuromorphic+Computing+Enthusiast+%E2%9A%A1" alt="Typing SVG" />
   </a>
   
   <br/>
@@ -177,8 +182,3 @@
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote"/>
 </div>
-
-<br/>
-
-<!-- Footer Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
