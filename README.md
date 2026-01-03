@@ -4,7 +4,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=header" width="100%"/>
   
   <h1>👋 Hey there! I'm Charithra</h1>
-  <b>Full-Stack Developer | AI & SNN Researcher</b>
+  <b>Full-Stack Developer | GNN & SNN Researcher</b>
   
   <br/><br/>
   
