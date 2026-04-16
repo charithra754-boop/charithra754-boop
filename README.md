@@ -112,6 +112,10 @@
 
 ### 📜 Recent Activity
 <!--START_SECTION:activity-->
+1. 🎉 Merged PR [#2](https://github.com/MUKUL-PRASAD-SIGH/AetherSentrix-Trial/pull/2) in [MUKUL-PRASAD-SIGH/AetherSentrix-Trial](https://github.com/MUKUL-PRASAD-SIGH/AetherSentrix-Trial)
+2. 💪 Opened PR [#2](https://github.com/MUKUL-PRASAD-SIGH/AetherSentrix-Trial/pull/2) in [MUKUL-PRASAD-SIGH/AetherSentrix-Trial](https://github.com/MUKUL-PRASAD-SIGH/AetherSentrix-Trial)
+3. 🎉 Merged PR [#1](https://github.com/MUKUL-PRASAD-SIGH/AetherSentrix-Trial/pull/1) in [MUKUL-PRASAD-SIGH/AetherSentrix-Trial](https://github.com/MUKUL-PRASAD-SIGH/AetherSentrix-Trial)
+4. 💪 Opened PR [#1](https://github.com/MUKUL-PRASAD-SIGH/AetherSentrix-Trial/pull/1) in [MUKUL-PRASAD-SIGH/AetherSentrix-Trial](https://github.com/MUKUL-PRASAD-SIGH/AetherSentrix-Trial)
 <!--END_SECTION:activity-->
 
 <br />
