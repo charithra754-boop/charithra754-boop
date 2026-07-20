@@ -6,38 +6,45 @@
   
   <!-- Typing Animation -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=8C766C&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=70&lines=Crafting+code+with+coffee+%26+acoustic+chords+☕;Building+intelligent+neuromorphic+systems+🧠;Exploring+the+harmony+between+art+%26+technology+🎨" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;pause=1000&amp;color=8C766C&amp;center=true&amp;vCenter=true&amp;multiline=true&amp;repeat=true&amp;width=700&amp;height=70&amp;lines=Crafting+code+with+cold+coffee+%26+chords+%F0%9F%A7%8A%E2%98%95;Building+intelligent+neuromorphic+systems+%F0%9F%A7%A0;Exploring+the+harmony+between+art+%26+technology+%F0%9F%8E%A8" alt="Typing SVG" />
   </a>
   
   <br/>
   
   <!-- Profile Views & Followers -->
-  <img src="https://komarev.com/ghpvc/?username=charithra754-boop&style=for-the-badge&color=8d766c&labelColor=3e322d&label=PROFILE+VIEWS" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=charithra754-boop&amp;style=for-the-badge&amp;color=8d766c&amp;labelColor=3e322d&amp;label=PROFILE+VIEWS" alt="Profile Views"/>
   &nbsp;
   <a href="https://github.com/charithra754-boop?tab=followers">
-    <img src="https://img.shields.io/github/followers/charithra754-boop?style=for-the-badge&color=b5927e&labelColor=3e322d&label=Followers" alt="Followers"/>
+    <img src="https://img.shields.io/github/followers/charithra754-boop?style=for-the-badge&amp;color=b5927e&amp;labelColor=3e322d&amp;label=Followers" alt="Followers"/>
   </a>
   
   <br/><br/>
   
   <!-- Social Links -->
   <a href="https://www.linkedin.com/in/charithra754">
-    <img src="https://img.shields.io/badge/LinkedIn-705e55?style=for-the-badge&logo=linkedin&logoColor=FAF8F5&labelColor=3e322d" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-705e55?style=for-the-badge&amp;logo=linkedin&amp;logoColor=FAF8F5&amp;labelColor=3e322d" alt="LinkedIn" />
   </a>
   &nbsp;
   <a href="mailto:charithra754@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-8d766c?style=for-the-badge&logo=gmail&logoColor=FAF8F5&labelColor=3e322d" alt="Email" />
+    <img src="https://img.shields.io/badge/Gmail-8d766c?style=for-the-badge&amp;logo=gmail&amp;logoColor=FAF8F5&amp;labelColor=3e322d" alt="Email" />
   </a>
   &nbsp;
   <a href="https://github.com/charithra754-boop">
-    <img src="https://img.shields.io/badge/GitHub-b5927e?style=for-the-badge&logo=github&logoColor=FAF8F5&labelColor=3e322d" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-b5927e?style=for-the-badge&amp;logo=github&amp;logoColor=FAF8F5&amp;labelColor=3e322d" alt="GitHub" />
+  </a>
+  
+  <br/><br/>
+  
+  <!-- Mini Game Badge -->
+  <a href="https://charithra754-boop.github.io/charithra754-boop/game.html">
+    <img src="https://img.shields.io/badge/🎮_Play_Mini_Game-Catch_Ice_Cubes_&amp;_Get_a_Fortune-FAF8F5?style=for-the-badge&amp;logo=gamepad&amp;logoColor=60524c&amp;labelColor=ecdcc5" alt="Play Cozy Cold Coffee Game" />
   </a>
 
 </div>
 
 ---
 
-## ☕ Cozy Quick Stats
+## 🧊 Cozy Quick Stats
 
 <div align="center">
   <picture>
@@ -72,7 +79,7 @@
       </div>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center" style="color: #3e322d;">🛰️ Project Astraeus: Digital Twin</h3>
+      <h3 align="center" style="color: #3e322d;">🚀 Project Astraeus: Digital Twin</h3>
       <p align="center" style="font-size: 13.5px; color: #5c4d46; line-height: 1.5;">
         <i>"Navigating the cosmos with intelligent autonomy!"</i> 🌌<br>
         Optimized satellite data scheduling with a PPO agent (+23.4% throughput). Engineered a physics-accurate 3D Digital Twin (CesiumJS) for sub-second telemetry processing.
@@ -223,6 +230,6 @@
 
 <div align="center">
   <p style="font-style: italic; color: #8c7b72; font-family: Georgia, serif; font-size: 14.5px;">
-    "Code is like music; it has its own rhythm, harmony, and structure. And just like a painting, it is crafted one stroke at a time, fueled by a warm cup of coffee."
+    "Code is like music; it has its own rhythm, harmony, and structure. And just like a painting, it is crafted one stroke at a time, fueled by a glass of cold brew."
   </p>
 </div>

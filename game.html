@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cozy Cold Brew Game &amp; Fortune Cafe</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,800;1,400&family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600&display=swap');
+    
+    :root {
+      --bg-color: #FAF8F5;
+      --card-bg: #F5F0E6;
+      --border-color: #e3dad0;
+      --text-dark: #3E322D;
+      --text-muted: #70625a;
+      --accent-latte: #b5927e;
+      --pastel-sage: #D3DCD0;
+      --pastel-rose: #EAD1CD;
+      --pastel-sand: #ECDDC5;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-color);
+      color: var(--text-dark);
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      margin: 30px 20px 10px 20px;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 38px;
+      margin: 0 0 10px 0;
+      color: var(--text-dark);
+    }
+
+    h1 span {
+      font-style: italic;
+      font-weight: 400;
+      color: var(--accent-latte);
+    }
+
+    .subtitle {
+      font-family: 'Fira Code', monospace;
+      font-size: 13px;
+      color: var(--text-muted);
+      letter-spacing: 1px;
+      margin: 0;
+    }
+
+    .main-container {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      max-width: 1000px;
+      width: 90%;
+      margin: 20px 0;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 8px 24px rgba(84, 68, 60, 0.05);
+      flex: 1;
+      min-width: 320px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 24px;
+      margin: 0 0 15px 0;
+      text-align: center;
+    }
+
+    /* Game Styles */
+    #game-container {
+      position: relative;
+      width: 340px;
+      height: 400px;
+      background-color: #FAF8F5;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      overflow: hidden;
+      cursor: none;
+    }
+
+    #game-canvas {
+      display: block;
+      background-color: #FAF8F5;
+    }
+
+    .game-ui {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 15px;
+      font-family: 'Fira Code', monospace;
+      font-size: 14px;
+    }
+
+    .btn {
+      background-color: #f2ede4;
+      border: 1px solid var(--border-color);
+      color: var(--text-dark);
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      margin-top: 15px;
+    }
+
+    .btn:hover {
+      background-color: var(--border-color);
+      transform: translateY(-1px);
+    }
+
+    .btn:active {
+      transform: translateY(1px);
+    }
+
+    /* Fortune Cookie Styles */
+    .cookie-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 250px;
+      width: 100%;
+      position: relative;
+    }
+
+    .cookie-wrapper {
+      position: relative;
+      width: 160px;
+      height: 120px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .cookie-wrapper:hover {
+      transform: scale(1.05);
+    }
+
+    .cookie-left, .cookie-right {
+      position: absolute;
+      width: 80px;
+      height: 120px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    /* CSS drawing of fortune cookie halves */
+    .cookie-left {
+      left: 0;
+      background-color: #e8c090;
+      border-radius: 90px 10px 10px 90px;
+      border: 2px solid #bd9b70;
+      border-right: none;
+      transform-origin: left center;
+      box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .cookie-left::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 30px;
+      width: 20px;
+      height: 60px;
+      background-color: #bd9b70;
+      border-radius: 50% 0 0 50%;
+      opacity: 0.3;
+    }
+
+    .cookie-right {
+      right: 0;
+      background-color: #e8c090;
+      border-radius: 10px 90px 90px 10px;
+      border: 2px solid #bd9b70;
+      border-left: none;
+      transform-origin: right center;
+      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .cookie-right::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 30px;
+      width: 20px;
+      height: 60px;
+      background-color: #bd9b70;
+      border-radius: 0 50% 50% 0;
+      opacity: 0.3;
+    }
+
+    /* Cracking Animations */
+    .cookie-wrapper.cracked .cookie-left {
+      transform: translate(-40px, -20px) rotate(-35deg);
+    }
+
+    .cookie-wrapper.cracked .cookie-right {
+      transform: translate(40px, -20px) rotate(35deg);
+    }
+
+    .fortune-slip {
+      position: absolute;
+      width: 240px;
+      background-color: #ffffff;
+      border: 1px solid var(--border-color);
+      border-left: 4px solid var(--accent-latte);
+      padding: 12px 16px;
+      border-radius: 6px;
+      box-shadow: 0 6px 16px rgba(84, 68, 60, 0.08);
+      font-size: 13.5px;
+      line-height: 1.5;
+      text-align: center;
+      font-style: italic;
+      color: var(--text-dark);
+      opacity: 0;
+      transform: scale(0.8) translateY(30px);
+      transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      pointer-events: none;
+      z-index: 10;
+    }
+
+    .fortune-slip.reveal {
+      opacity: 1;
+      transform: scale(1) translateY(0);
+      pointer-events: auto;
+    }
+
+    .instructions {
+      font-size: 12px;
+      color: var(--text-muted);
+      text-align: center;
+      margin-top: 10px;
+      line-height: 1.4;
+    }
+
+    footer {
+      margin: 40px 0;
+      font-family: 'Fira Code', monospace;
+      font-size: 11px;
+      color: var(--text-muted);
+      text-align: center;
+    }
+
+    footer a {
+      color: var(--accent-latte);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>The Cozy <span>Cold Coffee</span> Bar</h1>
+    <p class="subtitle">ICED COFFEE CATCHER &amp; FORTUNE COOKIES</p>
+  </header>
+
+  <div class="main-container">
+    
+    <!-- 1. CATCHING ICE GAME CARD -->
+    <div class="card">
+      <h2 class="card-title">Iced Catcher Game</h2>
+      
+      <div id="game-container">
+        <canvas id="game-canvas" width="340" height="400"></canvas>
+      </div>
+
+      <div class="game-ui">
+        <div>Score: <span id="game-score">0</span></div>
+        <div>Hearts: <span id="game-lives">❤❤❤</span></div>
+      </div>
+      
+      <button class="btn" id="start-btn">Start Game</button>
+      <p class="instructions">Move mouse or swipe left/right to catch <b>Ice Cubes 🧊</b> &amp; <b>Beans ☕</b>. Avoid <b>Hot Drops 🌶️</b>!</p>
+    </div>
+
+    <!-- 2. FORTUNE COOKIE CARD -->
+    <div class="card" style="justify-content: flex-start;">
+      <h2 class="card-title">Fortune Cookie Cafe</h2>
+      
+      <div class="cookie-container">
+        <div class="cookie-wrapper" id="cookie-btn">
+          <div class="cookie-left"></div>
+          <div class="cookie-right"></div>
+        </div>
+        
+        <div class="fortune-slip" id="fortune-slip">
+          Click the cookie to reveal your developer fortune...
+        </div>
+      </div>
+
+      <button class="btn" id="reset-cookie-btn" style="display: none;">Bake New Cookie</button>
+      <p class="instructions" id="cookie-instructions">Click on the fortune cookie to crack it open and read your custom tech fortune.</p>
+    </div>
+
+  </div>
+
+  <footer>
+    Crafted for <a href="https://github.com/charithra754-boop">Charithra's GitHub Profile</a> | 2026
+  </footer>
+
+  <script>
+    // --- AUDIO SYSTEM (Web Audio API Synthesizer) ---
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+    let audioCtx = null;
+
+    function initAudio() {
+      if (!audioCtx) {
+        audioCtx = new AudioContext();
+      }
+    }
+
+    function playSound(type) {
+      initAudio();
+      if (!audioCtx) return;
+      
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+      
+      const now = audioCtx.currentTime;
+
+      if (type === 'catch') {
+        // High ping for catching
+        osc.frequency.setValueAtTime(523.25, now); // C5
+        osc.frequency.exponentialRampToValueAtTime(880, now + 0.1); // A5
+        gain.gain.setValueAtTime(0.15, now);
+        gain.gain.exponentialRampToValueAtTime(0.01, now + 0.15);
+        osc.start(now);
+        osc.stop(now + 0.15);
+      } else if (type === 'hit') {
+        // Low sound for hit
+        osc.frequency.setValueAtTime(220, now);
+        osc.frequency.linearRampToValueAtTime(110, now + 0.2);
+        gain.gain.setValueAtTime(0.3, now);
+        gain.gain.exponentialRampToValueAtTime(0.01, now + 0.25);
+        osc.start(now);
+        osc.stop(now + 0.25);
+      } else if (type === 'crack') {
+        // Noise crack for cookie
+        const bufferSize = audioCtx.sampleRate * 0.1;
+        const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+        const data = buffer.getChannelData(0);
+        for (let i = 0; i < bufferSize; i++) {
+          data[i] = Math.random() * 2 - 1;
+        }
+        const noise = audioCtx.createBufferSource();
+        noise.buffer = buffer;
+        
+        const filter = audioCtx.createBiquadFilter();
+        filter.type = 'bandpass';
+        filter.frequency.value = 800;
+        
+        noise.connect(filter);
+        filter.connect(gain);
+        
+        gain.gain.setValueAtTime(0.2, now);
+        gain.gain.exponentialRampToValueAtTime(0.01, now + 0.08);
+        noise.start(now);
+        noise.stop(now + 0.08);
+      }
+    }
+
+    // --- GAME ENGINE ---
+    const canvas = document.getElementById('game-canvas');
+    const ctx = canvas.getContext('2d');
+    const scoreElement = document.getElementById('game-score');
+    const livesElement = document.getElementById('game-lives');
+    const startBtn = document.getElementById('start-btn');
+
+    let score = 0;
+    let lives = 3;
+    let gameActive = false;
+    let basketX = 140;
+    const basketWidth = 60;
+    const basketHeight = 70;
+    const basketY = 320;
+    
+    // Level of liquid inside the basket
+    let fillLevel = 0; // max is 45
+
+    let items = [];
+    const itemTypes = {
+      ICE: { char: '🧊', color: '#a0c4ff', points: 10, type: 'good' },
+      BEAN: { char: '☕', color: '#b5927e', points: 15, type: 'good' },
+      HOT: { char: '🌶️', color: '#ffadad', points: -20, type: 'bad' }
+    };
+
+    function drawBasket() {
+      // Draw Coffee Liquid Fill
+      if (fillLevel > 0) {
+        ctx.fillStyle = '#b5927e'; // latte color
+        ctx.beginPath();
+        const baseOffset = 3;
+        const fillHeight = fillLevel;
+        ctx.moveTo(basketX + baseOffset + 4, basketY + basketHeight - baseOffset);
+        ctx.lineTo(basketX + basketWidth - baseOffset - 4, basketY + basketHeight - baseOffset);
+        
+        // Slope lines
+        const topY = basketY + basketHeight - baseOffset - fillHeight;
+        const slopeLeftX = basketX + baseOffset + 4 - (fillHeight * 0.07);
+        const slopeRightX = basketX + basketWidth - baseOffset - 4 + (fillHeight * 0.07);
+        
+        ctx.lineTo(slopeRightX, topY);
+        ctx.lineTo(slopeLeftX, topY);
+        ctx.closePath();
+        ctx.fill();
+        
+        // Darker espresso layer at bottom
+        ctx.fillStyle = '#705E55';
+        ctx.beginPath();
+        const darkHeight = Math.min(fillHeight, 15);
+        ctx.moveTo(basketX + baseOffset + 4, basketY + basketHeight - baseOffset);
+        ctx.lineTo(basketX + basketWidth - baseOffset - 4, basketY + basketHeight - baseOffset);
+        ctx.lineTo(basketX + basketWidth - baseOffset - 4 + (darkHeight * 0.07), basketY + basketHeight - baseOffset - darkHeight);
+        ctx.lineTo(basketX + baseOffset + 4 - (darkHeight * 0.07), basketY + basketHeight - baseOffset - darkHeight);
+        ctx.closePath();
+        ctx.fill();
+      }
+
+      // Draw Glass Tumbler outline
+      ctx.strokeStyle = '#5C4D46';
+      ctx.lineWidth = 3.5;
+      ctx.lineCap = 'round';
+      ctx.beginPath();
+      // Glass body lines
+      ctx.moveTo(basketX + 5, basketY);
+      ctx.lineTo(basketX + 12, basketY + basketHeight);
+      ctx.lineTo(basketX + basketWidth - 12, basketY + basketHeight);
+      ctx.lineTo(basketX + basketWidth - 5, basketY);
+      ctx.stroke();
+
+      // Top Glass Rim
+      ctx.beginPath();
+      ctx.ellipse(basketX + basketWidth/2, basketY, basketWidth/2 - 5, 4, 0, 0, Math.PI * 2);
+      ctx.stroke();
+
+      // Straw sticking out
+      ctx.strokeStyle = '#3E322D';
+      ctx.lineWidth = 3.5;
+      ctx.beginPath();
+      ctx.moveTo(basketX + basketWidth/2 + 2, basketY + basketHeight - 15);
+      ctx.lineTo(basketX + basketWidth/2 + 10, basketY - 15);
+      ctx.lineTo(basketX + basketWidth/2 + 18, basketY - 22);
+      ctx.stroke();
+    }
+
+    function spawnItem() {
+      if (!gameActive) return;
+      
+      const rand = Math.random();
+      let selectedType;
+      
+      if (rand < 0.55) {
+        selectedType = itemTypes.ICE;
+      } else if (rand < 0.8) {
+        selectedType = itemTypes.BEAN;
+      } else {
+        selectedType = itemTypes.HOT;
+      }
+
+      items.push({
+        x: Math.random() * (canvas.width - 40) + 20,
+        y: -20,
+        speed: Math.random() * 2 + 2 + (score * 0.02),
+        type: selectedType
+      });
+      
+      // Schedule next spawn
+      setTimeout(spawnItem, Math.random() * 1000 + 800);
+    }
+
+    function update() {
+      if (!gameActive) return;
+
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Draw background grid lines (Aesthetic graph paper feel)
+      ctx.strokeStyle = '#f2ede4';
+      ctx.lineWidth = 1;
+      for (let x = 20; x < canvas.width; x += 20) {
+        ctx.beginPath();
+        ctx.moveTo(x, 0);
+        ctx.lineTo(x, canvas.height);
+        ctx.stroke();
+      }
+      for (let y = 20; y < canvas.height; y += 20) {
+        ctx.beginPath();
+        ctx.moveTo(0, y);
+        ctx.lineTo(canvas.width, y);
+        ctx.stroke();
+      }
+
+      // Draw items
+      for (let i = items.length - 1; i >= 0; i--) {
+        const item = items[i];
+        item.y += item.speed;
+
+        // Draw emoji
+        ctx.font = '24px sans-serif';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText(item.type.char, item.x, item.y);
+
+        // Check catch
+        if (item.y >= basketY - 5 && item.y <= basketY + basketHeight) {
+          if (item.x >= basketX - 10 && item.x <= basketX + basketWidth + 10) {
+            // caught
+            playSound('catch');
+            score = Math.max(0, score + item.type.points);
+            scoreElement.textContent = score;
+
+            if (item.type.type === 'good') {
+              fillLevel = Math.min(48, fillLevel + 5);
+            } else {
+              fillLevel = Math.max(0, fillLevel - 15);
+              lives--;
+              updateLives();
+            }
+
+            items.splice(i, 1);
+            continue;
+          }
+        }
+
+        // Out of bounds
+        if (item.y > canvas.height + 20) {
+          if (item.type.type === 'good') {
+            // Missed good item drops level slightly
+            fillLevel = Math.max(0, fillLevel - 1);
+          }
+          items.splice(i, 1);
+        }
+      }
+
+      drawBasket();
+
+      if (lives <= 0) {
+        endGame();
+      }
+
+      requestAnimationFrame(update);
+    }
+
+    function updateLives() {
+      livesElement.textContent = '❤'.repeat(lives) + '💔'.repeat(3 - lives);
+    }
+
+    function startGame() {
+      if (gameActive) return;
+      initAudio();
+      score = 0;
+      lives = 3;
+      fillLevel = 0;
+      items = [];
+      gameActive = true;
+      scoreElement.textContent = '0';
+      updateLives();
+      startBtn.textContent = 'Reset Game';
+      spawnItem();
+      update();
+    }
+
+    function endGame() {
+      gameActive = false;
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      
+      // Draw game over screen
+      ctx.fillStyle = 'rgba(84, 68, 60, 0.85)';
+      ctx.fillRect(30, 100, canvas.width - 60, 180);
+      
+      ctx.fillStyle = '#FAF8F5';
+      ctx.font = 'bold 24px "Playfair Display", serif';
+      ctx.textAlign = 'center';
+      ctx.fillText("Coffee Spilled!", canvas.width / 2, 150);
+      
+      ctx.font = '14px "Fira Code", monospace';
+      ctx.fillText(`Final Score: ${score}`, canvas.width / 2, 190);
+      ctx.fillText("Click 'Restart' to try again", canvas.width / 2, 220);
+      
+      startBtn.textContent = 'Restart Game';
+      playSound('hit');
+    }
+
+    // Event listener for mouse movement
+    canvas.addEventListener('mousemove', (e) => {
+      const rect = canvas.getBoundingClientRect();
+      const rootX = e.clientX - rect.left;
+      basketX = Math.min(canvas.width - basketWidth, Math.max(0, rootX - basketWidth/2));
+    });
+
+    // Touch support
+    canvas.addEventListener('touchmove', (e) => {
+      e.preventDefault();
+      const rect = canvas.getBoundingClientRect();
+      const touch = e.touches[0];
+      const rootX = touch.clientX - rect.left;
+      basketX = Math.min(canvas.width - basketWidth, Math.max(0, rootX - basketWidth/2));
+    }, { passive: false });
+
+    startBtn.addEventListener('click', () => {
+      startGame();
+    });
+
+    // Initial canvas screen
+    ctx.fillStyle = varColor('--text-dark');
+    ctx.font = 'italic 16px "Playfair Display", serif';
+    ctx.textAlign = 'center';
+    ctx.fillText("Click 'Start Game' to make cold coffee!", canvas.width/2, canvas.height/2);
+    drawBasket();
+
+    function varColor(varName) {
+      return getComputedStyle(document.documentElement).getPropertyValue(varName).trim();
+    }
+
+
+    // --- FORTUNE COOKIE SYSTEM ---
+    const cookieBtn = document.getElementById('cookie-btn');
+    const fortuneSlip = document.getElementById('fortune-slip');
+    const resetCookieBtn = document.getElementById('reset-cookie-btn');
+    const cookieInstructions = document.getElementById('cookie-instructions');
+
+    const fortunes = [
+      "Your code will compile on the first try today, smooth like cold brew. 🧊☕",
+      "An unexpected bug will lead to a beautiful feature. Keep strumming! 🎸✨",
+      "Your git push will go through without conflicts today. Celebrate with coffee! ☕🎉",
+      "A new model you train will converge faster than a cold brew steep. 🧠🔬",
+      "Today, you will find the missing bracket in less than 5 seconds. 🔍💻",
+      "A fresh glass of iced coffee will solve the bug that's been bugging you. 🧊🍀",
+      "Like a well-tuned acoustic guitar, your code logic will hit all the right notes. 🎸🎵",
+      "Your queries will execute in sub-millisecond times today. Clean & efficient! ⚡📈",
+      "A beautiful refactoring opportunity is in your future. Embrace simple designs. 🎨📐",
+      "May your coffee be cold, your terminal quiet, and your code bug-free. ☕🧘"
+    ];
+
+    cookieBtn.addEventListener('click', () => {
+      if (cookieBtn.classList.contains('cracked')) return;
+      
+      initAudio();
+      playSound('crack');
+      
+      cookieBtn.classList.add('cracked');
+      
+      // Choose random fortune
+      const randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)];
+      fortuneSlip.textContent = randomFortune;
+      
+      setTimeout(() => {
+        fortuneSlip.classList.add('reveal');
+        resetCookieBtn.style.display = 'block';
+        cookieInstructions.textContent = "You opened your fortune! Bake a new cookie to try again.";
+      }, 400);
+    });
+
+    resetCookieBtn.addEventListener('click', () => {
+      fortuneSlip.classList.remove('reveal');
+      cookieBtn.classList.remove('cracked');
+      resetCookieBtn.style.display = 'none';
+      cookieInstructions.textContent = "Click on the fortune cookie to crack it open and read your custom tech fortune.";
+      
+      setTimeout(() => {
+        fortuneSlip.textContent = "Click the cookie to reveal your developer fortune...";
+      }, 500);
+    });
+  </script>
+</body>
+</html>
