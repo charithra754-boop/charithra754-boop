@@ -6,7 +6,7 @@
       font-family: 'Playfair Display', Georgia, serif;
       font-weight: 800;
       font-size: 52px;
-      fill: #3e322d; /* rich coffee dark brown */
+      fill: #fcf8f2; /* cream foam white */
       letter-spacing: -0.5px;
     }
     
@@ -14,13 +14,13 @@
       font-family: 'Playfair Display', Georgia, serif;
       font-style: italic;
       font-weight: 400;
-      fill: #b5927e; /* soft warm latte accent */
+      fill: #c88f70; /* warm caramel crema */
     }
     
     .subtitle {
       font-family: 'Fira Code', monospace;
       font-size: 13px;
-      fill: #8c7b72;
+      fill: #bfa395; /* light latte brown */
       letter-spacing: 1px;
       font-weight: 500;
     }
@@ -28,20 +28,20 @@
     .tagline {
       font-family: 'Inter', sans-serif;
       font-size: 14px;
-      fill: #70625a;
+      fill: #d2beaf; /* soft milk coffee text */
       line-height: 1.5;
     }
 
     .badge-text {
       font-family: 'Inter', sans-serif;
       font-size: 11px;
-      fill: #60524c;
+      fill: #e8dcd0;
       font-weight: 600;
     }
 
     .badge-bg {
-      fill: #f2ede4;
-      stroke: #e3dad0;
+      fill: #2b1a12; /* dark chocolate badge bg */
+      stroke: #452b1e;
       stroke-width: 1px;
       rx: 12px;
     }
@@ -86,32 +86,32 @@
   </style>
 
   <defs>
-    <!-- Background Gradient (Soft warm cozy cream to pale clay) -->
+    <!-- Background Gradient (Rich Dark Roast Espresso) -->
     <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FAF8F5" />
-      <stop offset="60%" stop-color="#F5F0E6" />
-      <stop offset="100%" stop-color="#EBE3D5" />
+      <stop offset="0%" stop-color="#140b07" />
+      <stop offset="50%" stop-color="#24150f" />
+      <stop offset="100%" stop-color="#1b0e0a" />
     </linearGradient>
 
     <!-- Drop shadow for clean depth -->
     <filter id="soft-shadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#54443c" flood-opacity="0.06"/>
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.3"/>
     </filter>
   </defs>
 
   <!-- Background -->
-  <rect width="900" height="280" rx="20" fill="url(#bg-gradient)" stroke="#e6dfd5" stroke-width="1.5"/>
+  <rect width="900" height="280" rx="20" fill="url(#bg-gradient)" stroke="#2b1a12" stroke-width="1.5"/>
 
   <!-- ART & PASTEL BLOBS SECTION (Right Side) -->
   <g id="artistic-backgrounds" filter="url(#soft-shadow)">
-    <!-- Blob 1: Sage Green (Organic) -->
-    <path class="blob" d="M 680,100 C 720,70 760,80 770,120 C 780,160 740,190 700,180 C 660,170 640,130 680,100 Z" fill="#D3DCD0" opacity="0.8" style="animation-duration: 12s;"/>
+    <!-- Blob 1: Darkened Sage Green -->
+    <path class="blob" d="M 680,100 C 720,70 760,80 770,120 C 780,160 740,190 700,180 C 660,170 640,130 680,100 Z" fill="#586754" opacity="0.4" style="animation-duration: 12s;"/>
     
-    <!-- Blob 2: Dusty Rose (Organic) -->
-    <path class="blob" d="M 590,170 C 620,130 670,140 680,180 C 690,220 640,240 600,220 C 560,200 560,210 590,170 Z" fill="#EAD1CD" opacity="0.75" style="animation-duration: 9s;"/>
+    <!-- Blob 2: Rich Caramel Crema -->
+    <path class="blob" d="M 590,170 C 620,130 670,140 680,180 C 690,220 640,240 600,220 C 560,200 560,210 590,170 Z" fill="#b07d62" opacity="0.6" style="animation-duration: 9s;"/>
     
-    <!-- Blob 3: Warm Sand/Cream Clay -->
-    <path class="blob" d="M 760,150 C 800,110 830,130 840,170 C 850,210 800,230 760,210 C 720,190 720,190 760,150 Z" fill="#ECDDC5" opacity="0.85" style="animation-duration: 15s;"/>
+    <!-- Blob 3: Roasted Espresso Bean Brown -->
+    <path class="blob" d="M 760,150 C 800,110 830,130 840,170 C 850,210 800,230 760,210 C 720,190 720,190 760,150 Z" fill="#3d251d" opacity="0.8" style="animation-duration: 15s;"/>
   </g>
 
   <!-- LINE ART OVERLAYS (Coffee, Guitar, Music, Art) -->
@@ -119,42 +119,42 @@
     <!-- 1. COLD BREW GLASS -->
     <g transform="translate(10, 0)">
       <!-- Coffee Liquid Fill -->
-      <path d="M 572,150 L 580,208 C 581,211 585,214 590,214 L 610,214 C 615,214 619,211 620,208 L 628,150 Z" fill="#b5927e" opacity="0.6"/>
+      <path d="M 572,150 L 580,208 C 581,211 585,214 590,214 L 610,214 C 615,214 619,211 620,208 L 628,150 Z" fill="#8f614e" opacity="0.8"/>
       <!-- Espresso layer at the bottom -->
-      <path d="M 576,175 L 580,208 C 581,211 585,214 590,214 L 610,214 C 615,214 619,211 620,208 L 624,175 Z" fill="#705E55" opacity="0.75"/>
+      <path d="M 576,175 L 580,208 C 581,211 585,214 590,214 L 610,214 C 615,214 619,211 620,208 L 624,175 Z" fill="#3D251D" opacity="0.9"/>
       <!-- Ice Cubes inside the glass -->
-      <rect x="586" y="155" width="13" height="13" rx="2" transform="rotate(15 592.5 161.5)" fill="none" stroke="#5C4D46" stroke-width="1.5" opacity="0.8"/>
-      <rect x="602" y="172" width="13" height="13" rx="2" transform="rotate(-12 608.5 178.5)" fill="none" stroke="#5C4D46" stroke-width="1.5" opacity="0.8"/>
-      <rect x="581" y="178" width="13" height="13" rx="2" transform="rotate(40 587.5 184.5)" fill="none" stroke="#5C4D46" stroke-width="1.5" opacity="0.8"/>
+      <rect x="586" y="155" width="13" height="13" rx="2" transform="rotate(15 592.5 161.5)" fill="none" stroke="#FAF8F5" stroke-width="1.5" opacity="0.85"/>
+      <rect x="602" y="172" width="13" height="13" rx="2" transform="rotate(-12 608.5 178.5)" fill="none" stroke="#FAF8F5" stroke-width="1.5" opacity="0.85"/>
+      <rect x="581" y="178" width="13" height="13" rx="2" transform="rotate(40 587.5 184.5)" fill="none" stroke="#FAF8F5" stroke-width="1.5" opacity="0.85"/>
       <!-- Glass Tumbler Outline -->
-      <path d="M 570,135 L 580,210 C 581,215 585,218 590,218 L 610,218 C 615,218 619,215 620,210 L 630,135" fill="none" stroke="#5C4D46" stroke-width="2" stroke-linecap="round"/>
+      <path d="M 570,135 L 580,210 C 581,215 585,218 590,218 L 610,218 C 615,218 619,215 620,210 L 630,135" fill="none" stroke="#FAF8F5" stroke-width="2" stroke-linecap="round"/>
       <!-- Glass Rim Ellipse -->
-      <ellipse cx="600" cy="135" rx="30" ry="5" fill="none" stroke="#5C4D46" stroke-width="2"/>
+      <ellipse cx="600" cy="135" rx="30" ry="5" fill="none" stroke="#FAF8F5" stroke-width="2"/>
       <!-- Straw -->
-      <path d="M 596,198 L 610,120 L 622,110" fill="none" stroke="#5C4D46" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 596,198 L 610,120 L 622,110" fill="none" stroke="#FAF8F5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- Condensation Drops -->
-      <path d="M 577,180 C 577,182 575,184 575,184 C 575,184 573,182 573,180 C 573,178 577,178 577,180 Z" fill="#5C4D46" opacity="0.4"/>
+      <path d="M 577,180 C 577,182 575,184 575,184 C 575,184 573,182 573,180 C 573,178 577,178 577,180 Z" fill="#FAF8F5" opacity="0.6"/>
       <!-- Bubbles (Animated) -->
-      <circle class="bubble-1" cx="590" cy="190" r="2.5" fill="none" stroke="#5C4D46" stroke-width="1" opacity="0.5"/>
-      <circle class="bubble-2" cx="612" cy="200" r="1.8" fill="none" stroke="#5C4D46" stroke-width="1" opacity="0.5"/>
-      <circle class="bubble-3" cx="601" cy="180" r="2.2" fill="none" stroke="#5C4D46" stroke-width="1" opacity="0.5"/>
+      <circle class="bubble-1" cx="590" cy="190" r="2.5" fill="none" stroke="#FAF8F5" stroke-width="1" opacity="0.6"/>
+      <circle class="bubble-2" cx="612" cy="200" r="1.8" fill="none" stroke="#FAF8F5" stroke-width="1" opacity="0.6"/>
+      <circle class="bubble-3" cx="601" cy="180" r="2.2" fill="none" stroke="#FAF8F5" stroke-width="1" opacity="0.6"/>
     </g>
 
     <!-- 2. MINIMALIST GUITAR -->
     <g transform="translate(10, -5)">
       <!-- Guitar Neck / Fretboard -->
-      <rect x="785" y="60" width="8" height="65" rx="2" fill="none" stroke="#5C4D46" stroke-width="1.5"/>
-      <line x1="785" y1="75" x2="793" y2="75" stroke="#5C4D46" stroke-width="1"/>
-      <line x1="785" y1="90" x2="793" y2="90" stroke="#5C4D46" stroke-width="1"/>
-      <line x1="785" y1="105" x2="793" y2="105" stroke="#5C4D46" stroke-width="1"/>
+      <rect x="785" y="60" width="8" height="65" rx="2" fill="none" stroke="#FAF8F5" stroke-width="1.5"/>
+      <line x1="785" y1="75" x2="793" y2="75" stroke="#FAF8F5" stroke-width="1"/>
+      <line x1="785" y1="90" x2="793" y2="90" stroke="#FAF8F5" stroke-width="1"/>
+      <line x1="785" y1="105" x2="793" y2="105" stroke="#FAF8F5" stroke-width="1"/>
       
       <!-- Headstock -->
-      <path d="M 783,52 L 795,52 L 793,60 L 785,60 Z" fill="none" stroke="#5C4D46" stroke-width="1.5"/>
+      <path d="M 783,52 L 795,52 L 793,60 L 785,60 Z" fill="none" stroke="#FAF8F5" stroke-width="1.5"/>
       <!-- Pegs -->
-      <line x1="781" y1="55" x2="785" y2="55" stroke="#5C4D46" stroke-width="1.5" stroke-linecap="round"/>
-      <line x1="781" y1="58" x2="785" y2="58" stroke="#5C4D46" stroke-width="1.5" stroke-linecap="round"/>
-      <line x1="793" y1="55" x2="797" y2="55" stroke="#5C4D46" stroke-width="1.5" stroke-linecap="round"/>
-      <line x1="793" y1="58" x2="797" y2="58" stroke="#5C4D46" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="781" y1="55" x2="785" y2="55" stroke="#FAF8F5" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="781" y1="58" x2="785" y2="58" stroke="#FAF8F5" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="793" y1="55" x2="797" y2="55" stroke="#FAF8F5" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="793" y1="58" x2="797" y2="58" stroke="#FAF8F5" stroke-width="1.5" stroke-linecap="round"/>
 
       <!-- Guitar Body (One Line Drawing) -->
       <path d="M 789,125 
@@ -163,70 +163,65 @@
                C 776,215 802,215 810,198 
                C 816,185 800,168 806,156 
                C 813,142 806,128 789,125 Z" 
-            fill="none" stroke="#5C4D46" stroke-width="2" stroke-linejoin="round"/>
+            fill="none" stroke="#FAF8F5" stroke-width="2" stroke-linejoin="round"/>
       
       <!-- Sound Hole -->
-      <circle cx="789" cy="153" r="11" fill="#F5F0E6" stroke="#5C4D46" stroke-width="1.8"/>
+      <circle cx="789" cy="153" r="11" fill="#24150f" stroke="#FAF8F5" stroke-width="1.8"/>
       <!-- Bridge -->
-      <line x1="777" y1="184" x2="801" y2="184" stroke="#5C4D46" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="777" y1="184" x2="801" y2="184" stroke="#FAF8F5" stroke-width="2.5" stroke-linecap="round"/>
       <!-- Strings -->
-      <line x1="789" y1="60" x2="789" y2="184" stroke="#8C766C" stroke-width="0.8" opacity="0.6"/>
-      <line x1="787" y1="60" x2="787" y2="184" stroke="#8C766C" stroke-width="0.8" opacity="0.6"/>
-      <line x1="791" y1="60" x2="791" y2="184" stroke="#8C766C" stroke-width="0.8" opacity="0.6"/>
+      <line x1="789" y1="60" x2="789" y2="184" stroke="#d2beaf" stroke-width="0.8" opacity="0.6"/>
+      <line x1="787" y1="60" x2="787" y2="184" stroke="#d2beaf" stroke-width="0.8" opacity="0.6"/>
+      <line x1="791" y1="60" x2="791" y2="184" stroke="#d2beaf" stroke-width="0.8" opacity="0.6"/>
     </g>
 
     <!-- 3. GUITAR CHORD BLOCK (Aesthetic Details) -->
-    <!-- Positioned elegantly at the center right -->
     <g transform="translate(680, 50)" class="drift-item-slow">
       <!-- Chord grid background label -->
-      <text x="24" y="0" font-family="'Fira Code', monospace" font-size="10" fill="#8C766C" font-weight="bold" text-anchor="middle">C Maj</text>
+      <text x="24" y="0" font-family="'Fira Code', monospace" font-size="10" fill="#bfa395" font-weight="bold" text-anchor="middle">C Maj</text>
       <!-- Nut -->
-      <line x1="0" y1="8" x2="48" y2="8" stroke="#5C4D46" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="0" y1="8" x2="48" y2="8" stroke="#FAF8F5" stroke-width="2.5" stroke-linecap="round"/>
       <!-- Frets -->
-      <line x1="0" y1="24" x2="48" y2="24" stroke="#7A685F" stroke-width="1"/>
-      <line x1="0" y1="40" x2="48" y2="40" stroke="#7A685F" stroke-width="1"/>
-      <line x1="0" y1="56" x2="48" y2="56" stroke="#7A685F" stroke-width="1"/>
-      <line x1="0" y1="72" x2="48" y2="72" stroke="#7A685F" stroke-width="1"/>
+      <line x1="0" y1="24" x2="48" y2="24" stroke="#bfa395" stroke-width="1"/>
+      <line x1="0" y1="40" x2="48" y2="40" stroke="#bfa395" stroke-width="1"/>
+      <line x1="0" y1="56" x2="48" y2="56" stroke="#bfa395" stroke-width="1"/>
+      <line x1="0" y1="72" x2="48" y2="72" stroke="#bfa395" stroke-width="1"/>
       <!-- Strings -->
-      <line x1="0" y1="8" x2="0" y2="72" stroke="#7A685F" stroke-width="1"/>
-      <line x1="9.6" y1="8" x2="9.6" y2="72" stroke="#7A685F" stroke-width="1"/>
-      <line x1="19.2" y1="8" x2="19.2" y2="72" stroke="#7A685F" stroke-width="1"/>
-      <line x1="28.8" y1="8" x2="28.8" y2="72" stroke="#7A685F" stroke-width="1"/>
-      <line x1="38.4" y1="8" x2="38.4" y2="72" stroke="#7A685F" stroke-width="1"/>
-      <line x1="48" y1="8" x2="48" y2="72" stroke="#7A685F" stroke-width="1"/>
+      <line x1="0" y1="8" x2="0" y2="72" stroke="#bfa395" stroke-width="1"/>
+      <line x1="9.6" y1="8" x2="9.6" y2="72" stroke="#bfa395" stroke-width="1"/>
+      <line x1="19.2" y1="8" x2="19.2" y2="72" stroke="#bfa395" stroke-width="1"/>
+      <line x1="28.8" y1="8" x2="28.8" y2="72" stroke="#bfa395" stroke-width="1"/>
+      <line x1="38.4" y1="8" x2="38.4" y2="72" stroke="#bfa395" stroke-width="1"/>
+      <line x1="48" y1="8" x2="48" y2="72" stroke="#bfa395" stroke-width="1"/>
       <!-- Fingers (C major dots) -->
-      <!-- String 5 (9.6), fret 3 (48) -->
-      <circle cx="9.6" cy="48" r="3.5" fill="#EAD1CD" stroke="#5C4D46" stroke-width="1"/>
-      <!-- String 4 (19.2), fret 2 (32) -->
-      <circle cx="19.2" cy="32" r="3.5" fill="#ECDDC5" stroke="#5C4D46" stroke-width="1"/>
-      <!-- String 2 (38.4), fret 1 (16) -->
-      <circle cx="38.4" cy="16" r="3.5" fill="#D3DCD0" stroke="#5C4D46" stroke-width="1"/>
+      <circle cx="9.6" cy="48" r="3.5" fill="#b07d62" stroke="#FAF8F5" stroke-width="1"/>
+      <circle cx="19.2" cy="32" r="3.5" fill="#ecdcc5" stroke="#FAF8F5" stroke-width="1"/>
+      <circle cx="38.4" cy="16" r="3.5" fill="#586754" stroke="#FAF8F5" stroke-width="1"/>
       <!-- Muted string symbol (x) above nut -->
-      <path d="M -2,0 L 2,4 M 2,0 L -2,4" fill="none" stroke="#8C766C" stroke-width="0.8" transform="translate(0, 0)"/>
+      <path d="M -2,0 L 2,4 M 2,0 L -2,4" fill="none" stroke="#bfa395" stroke-width="0.8" transform="translate(0, 0)"/>
       <!-- Open string symbols (o) above nut -->
-      <circle cx="28.8" cy="2" r="1.5" fill="none" stroke="#8C766C" stroke-width="0.8"/>
-      <circle cx="48" cy="2" r="1.5" fill="none" stroke="#8C766C" stroke-width="0.8"/>
+      <circle cx="28.8" cy="2" r="1.5" fill="none" stroke="#bfa395" stroke-width="0.8"/>
+      <circle cx="48" cy="2" r="1.5" fill="none" stroke="#bfa395" stroke-width="0.8"/>
     </g>
 
     <!-- 4. FLOATING MUSIC NOTES & RETRO SPARKLES -->
     <g class="drift-item">
       <!-- Star Sparkle 1 -->
-      <path d="M 640,40 Q 640,45 645,45 Q 640,45 640,50 Q 640,45 635,45 Q 640,45 640,40" fill="#EAD1CD"/>
+      <path d="M 640,40 Q 640,45 645,45 Q 640,45 640,50 Q 640,45 635,45 Q 640,45 640,40" fill="#b07d62"/>
       <!-- Star Sparkle 2 -->
-      <path d="M 830,110 Q 830,114 834,114 Q 830,114 830,118 Q 830,114 826,114 Q 830,114 830,110" fill="#D3DCD0"/>
+      <path d="M 830,110 Q 830,114 834,114 Q 830,114 830,118 Q 830,114 826,114 Q 830,114 830,110" fill="#586754"/>
       <!-- Eighth Note -->
-      <path d="M 655,108 L 655,90 L 666,93 L 666,111 M 655,108 C 655,111 650,113 645,111 C 640,109 640,105 645,103 C 650,101 655,104 655,108 Z M 666,111 C 666,114 661,116 656,114 C 651,112 651,108 656,106 C 661,104 666,107 666,111 Z" fill="#7A685F"/>
+      <path d="M 655,108 L 655,90 L 666,93 L 666,111 M 655,108 C 655,111 650,113 645,111 C 640,109 640,105 645,103 C 650,101 655,104 655,108 Z M 666,111 C 666,114 661,116 656,114 C 651,112 651,108 656,106 C 661,104 666,107 666,111 Z" fill="#d2beaf"/>
       <!-- Quarter Note -->
-      <path d="M 825,75 L 825,58 C 825,58 830,60 833,63 M 825,75 C 825,78 820,80 815,78 C 810,76 810,72 815,70 C 820,68 825,71 825,75 Z" fill="#7A685F"/>
+      <path d="M 825,75 L 825,58 C 825,58 830,60 833,63 M 825,75 C 825,78 820,80 815,78 C 810,76 810,72 815,70 C 820,68 825,71 825,75 Z" fill="#d2beaf"/>
     </g>
 
     <!-- 5. PALETTE / ARTIST TOUCH -->
     <g transform="translate(735, 205)" class="drift-item-slow">
       <!-- Painter's Brush -->
-      <line x1="-15" y1="15" x2="15" y2="-15" stroke="#5C4D46" stroke-width="2" stroke-linecap="round"/>
-      <path d="M 15,-15 C 17,-18 19,-17 18,-14 L 16,-12 Z" fill="#EAD1CD" stroke="#5C4D46" stroke-width="1.2" stroke-linejoin="round"/>
-      <!-- Color dot on tip -->
-      <circle cx="16.5" cy="-14.5" r="1.5" fill="#EAD1CD"/>
+      <line x1="-15" y1="15" x2="15" y2="-15" stroke="#FAF8F5" stroke-width="2" stroke-linecap="round"/>
+      <path d="M 15,-15 C 17,-18 19,-17 18,-14 L 16,-12 Z" fill="#b07d62" stroke="#FAF8F5" stroke-width="1.2" stroke-linejoin="round"/>
+      <circle cx="16.5" cy="-14.5" r="1.5" fill="#b07d62"/>
     </g>
   </g>
 
@@ -240,28 +235,28 @@
 
     <!-- Tagline (Poetic and modern) -->
     <text x="0" y="118" class="tagline" font-weight="500">Full-Stack Developer | GNN &amp; SNN Researcher</text>
-    <text x="0" y="138" class="tagline" fill="#8C7A70">Crafting code with glasses of cold brew, acoustic guitar chords,</text>
-    <text x="0" y="156" class="tagline" fill="#8C7A70">and sketches of neural nets.</text>
+    <text x="0" y="138" class="tagline" fill="#bfa395">Crafting code with glasses of cold brew, acoustic guitar chords,</text>
+    <text x="0" y="156" class="tagline" fill="#bfa395">and sketches of neural nets.</text>
     
     <!-- Neutral/Pastel aesthetic tags -->
     <g transform="translate(0, 185)">
       <!-- Badge 1: Sage tag -->
-      <rect x="0" y="0" width="105" height="24" class="badge-bg"/>
-      <circle cx="12" cy="12" r="4" fill="#A1B09C"/>
+      <rect x="0" y="0" width="125" height="24" class="badge-bg"/>
+      <circle cx="12" cy="12" r="4" fill="#8c9c86"/>
       <text x="24" y="16" class="badge-text">Cold Brew &amp; Code</text>
 
       <!-- Badge 2: Rose tag -->
-      <rect x="115" y="0" width="95" height="24" class="badge-bg"/>
-      <circle cx="127" cy="12" r="4" fill="#CFAEA9"/>
-      <text x="139" y="16" class="badge-text">Guitar Tabs</text>
+      <rect x="135" y="0" width="95" height="24" class="badge-bg"/>
+      <circle cx="147" cy="12" r="4" fill="#b07d62"/>
+      <text x="159" y="16" class="badge-text">Guitar Tabs</text>
 
       <!-- Badge 3: Cream tag -->
-      <rect x="220" y="0" width="115" height="24" class="badge-bg"/>
-      <circle cx="232" cy="12" r="4" fill="#DFCEB7"/>
-      <text x="244" y="16" class="badge-text">GNN &amp; SNNs</text>
+      <rect x="240" y="0" width="115" height="24" class="badge-bg"/>
+      <circle cx="252" cy="12" r="4" fill="#a88878"/>
+      <text x="264" y="16" class="badge-text">GNN &amp; SNNs</text>
     </g>
   </g>
 
   <!-- Clean separator line at the bottom -->
-  <rect x="0" y="277" width="900" height="3" fill="#ECDDC5" opacity="0.6"/>
+  <rect x="0" y="277" width="900" height="3" fill="#3D251D" opacity="0.6"/>
 </svg>

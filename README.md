@@ -6,10 +6,10 @@
   
   <!-- Typing Animation -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;pause=1000&amp;color=8C766C&amp;center=true&amp;vCenter=true&amp;multiline=true&amp;repeat=true&amp;width=700&amp;height=70&amp;lines=Crafting+code+with+cold+coffee+%26+chords+%F0%9F%A7%8A%E2%98%95;Building+intelligent+neuromorphic+systems+%F0%9F%A7%A0;Exploring+the+harmony+between+art+%26+technology+%F0%9F%8E%A8" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=c88f70&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=50&lines=Crafting+code+with+cold+coffee+%26+chords+%F0%9F%A7%8A%E2%98%95;Building+intelligent+neuromorphic+systems+%F0%9F%A7%A0;Exploring+the+harmony+between+art+%26+technology+%F0%9F%8E%A8" alt="Typing SVG" />
   </a>
   
-  <br/>
+  <br/><br/>
   
   <!-- Profile Views & Followers -->
   <img src="https://komarev.com/ghpvc/?username=charithra754-boop&amp;style=for-the-badge&amp;color=8d766c&amp;labelColor=3e322d&amp;label=PROFILE+VIEWS" alt="Profile Views"/>
@@ -36,7 +36,7 @@
   <br/><br/>
   
   <!-- Mini Game Badge -->
-  <a href="https://charithra754-boop.github.io/charithra754-boop/game.html">
+  <a href="https://htmlpreview.github.io/?https://github.com/charithra754-boop/charithra754-boop/blob/main/game.html">
     <img src="https://img.shields.io/badge/🎮_Play_Mini_Game-Catch_Ice_Cubes_&amp;_Get_a_Fortune-FAF8F5?style=for-the-badge&amp;logo=gamepad&amp;logoColor=60524c&amp;labelColor=ecdcc5" alt="Play Cozy Cold Coffee Game" />
   </a>
 
@@ -48,15 +48,15 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=charithra754-boop&show_icons=true&hide_border=true&bg_color=211C19&title_color=FAF8F5&icon_color=b5927e&text_color=EBE3D5&rank_icon=github">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=charithra754-boop&show_icons=true&hide_border=true&bg_color=FAF8F5&title_color=3E322D&icon_color=8C766C&text_color=5C4D46&rank_icon=github">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=charithra754-boop&show_icons=true&hide_border=true&bg_color=FAF8F5&title_color=3E322D&icon_color=8C766C&text_color=5C4D46&rank_icon=github" alt="GitHub Stats"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=charithra754-boop&amp;show_icons=true&amp;hide_border=true&amp;bg_color=180D08&amp;title_color=FAF8F5&amp;icon_color=C28B72&amp;text_color=E8DCD0&amp;rank_icon=github">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=charithra754-boop&amp;show_icons=true&amp;hide_border=true&amp;bg_color=FDFBF7&amp;title_color=3E251C&amp;icon_color=8F614E&amp;text_color=734C3A&amp;rank_icon=github">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=charithra754-boop&amp;show_icons=true&amp;hide_border=true&amp;bg_color=FDFBF7&amp;title_color=3E251C&amp;icon_color=8F614E&amp;text_color=734C3A&amp;rank_icon=github" alt="GitHub Stats"/>
   </picture>
   &nbsp;
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=charithra754-boop&hide_border=true&background=211C19&ring=b5927e&fire=EAD1CD&currStreakLabel=EBE3D5&sideNums=FAF8F5&sideLabels=b5927e&dates=d1c2b4">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=charithra754-boop&hide_border=true&background=FAF8F5&ring=b5927e&fire=e5c1bd&currStreakLabel=5C4D46&sideNums=3E322D&sideLabels=8C766C&dates=705E55">
-    <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=charithra754-boop&hide_border=true&background=FAF8F5&ring=b5927e&fire=e5c1bd&currStreakLabel=5C4D46&sideNums=3E322D&sideLabels=8C766C&dates=705E55" alt="GitHub Streak Stats"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=charithra754-boop&amp;hide_border=true&amp;background=180D08&amp;ring=C28B72&amp;fire=FAF8F5&amp;currStreakLabel=E8DCD0&amp;sideNums=FAF8F5&amp;sideLabels=C28B72&amp;dates=bfa395">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=charithra754-boop&amp;hide_border=true&amp;background=FDFBF7&amp;ring=8F614E&amp;fire=DCA988&amp;currStreakLabel=3E251C&amp;sideNums=24150F&amp;sideLabels=8F614E&amp;dates=734C3A">
+    <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=charithra754-boop&amp;hide_border=true&amp;background=FDFBF7&amp;ring=8F614E&amp;fire=DCA988&amp;currStreakLabel=3E251C&amp;sideNums=24150F&amp;sideLabels=8F614E&amp;dates=734C3A" alt="GitHub Streak Stats"/>
   </picture>
 </div>
 
