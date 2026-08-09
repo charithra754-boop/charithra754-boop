@@ -44,7 +44,7 @@
 
 ---
 
-## 🧊 Cozy Quick Stats
+## 🧊 Cozy Quick Stats...
 
 <div align="center">
   <picture>
