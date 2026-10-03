@@ -160,10 +160,10 @@
 
 ### Recent Activity
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#4](https://github.com/V4RSH1TH-R3DDY/manganese/pull/4) in [V4RSH1TH-R3DDY/manganese](https://github.com/V4RSH1TH-R3DDY/manganese)
-2. 💪 Opened PR [#4](https://github.com/V4RSH1TH-R3DDY/manganese/pull/4) in [V4RSH1TH-R3DDY/manganese](https://github.com/V4RSH1TH-R3DDY/manganese)
-3. Merged PR [#1](https://github.com/MUKUL-PRASAD-SIGH/AetherSentrix-Trial/pull/1) in [MUKUL-PRASAD-SIGH/AetherSentrix-Trial](https://github.com/MUKUL-PRASAD-SIGH/AetherSentrix-Trial)
-4. Opened PR [#1](https://github.com/MUKUL-PRASAD-SIGH/AetherSentrix-Trial/pull/1) in [MUKUL-PRASAD-SIGH/AetherSentrix-Trial](https://github.com/MUKUL-PRASAD-SIGH/AetherSentrix-Trial)
+1. 🎉 Merged PR [#1](https://github.com/charithra754-boop/DonorConnect/pull/1) in [charithra754-boop/DonorConnect](https://github.com/charithra754-boop/DonorConnect)
+2. 💪 Opened PR [#1](https://github.com/charithra754-boop/DonorConnect/pull/1) in [charithra754-boop/DonorConnect](https://github.com/charithra754-boop/DonorConnect)
+3. 🎉 Merged PR [#4](https://github.com/V4RSH1TH-R3DDY/manganese/pull/4) in [V4RSH1TH-R3DDY/manganese](https://github.com/V4RSH1TH-R3DDY/manganese)
+4. 💪 Opened PR [#4](https://github.com/V4RSH1TH-R3DDY/manganese/pull/4) in [V4RSH1TH-R3DDY/manganese](https://github.com/V4RSH1TH-R3DDY/manganese)
 <!--END_SECTION:activity-->
 
 <br/>
