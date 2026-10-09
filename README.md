@@ -160,10 +160,10 @@
 
 ### Recent Activity
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/charithra754-boop/DonorConnect/pull/1) in [charithra754-boop/DonorConnect](https://github.com/charithra754-boop/DonorConnect)
-2. 💪 Opened PR [#1](https://github.com/charithra754-boop/DonorConnect/pull/1) in [charithra754-boop/DonorConnect](https://github.com/charithra754-boop/DonorConnect)
-3. 🎉 Merged PR [#4](https://github.com/V4RSH1TH-R3DDY/manganese/pull/4) in [V4RSH1TH-R3DDY/manganese](https://github.com/V4RSH1TH-R3DDY/manganese)
-4. 💪 Opened PR [#4](https://github.com/V4RSH1TH-R3DDY/manganese/pull/4) in [V4RSH1TH-R3DDY/manganese](https://github.com/V4RSH1TH-R3DDY/manganese)
+1. 💪 Opened PR [#6](https://github.com/charithra754-boop/viz_trust/pull/6) in [charithra754-boop/viz_trust](https://github.com/charithra754-boop/viz_trust)
+2. 🎉 Merged PR [#5](https://github.com/charithra754-boop/viz_trust/pull/5) in [charithra754-boop/viz_trust](https://github.com/charithra754-boop/viz_trust)
+3. 💪 Opened PR [#5](https://github.com/charithra754-boop/viz_trust/pull/5) in [charithra754-boop/viz_trust](https://github.com/charithra754-boop/viz_trust)
+4. 🎉 Merged PR [#3](https://github.com/charithra754-boop/viz_trust/pull/3) in [charithra754-boop/viz_trust](https://github.com/charithra754-boop/viz_trust)
 <!--END_SECTION:activity-->
 
 <br/>
